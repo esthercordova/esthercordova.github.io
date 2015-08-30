@@ -1,0 +1,37 @@
+
+.headline {
+	border-bottom: none;
+	font-family: 'Exo 2', 'sans-serif';
+	padding-top: 1px;
+
+}
+
+.picture {
+	/*background-color: black;*/
+	height: 165px;
+	margin-top: 120px;
+	margin-left: 0px;
+	background-image: url("img/2.png");
+	background-size: 700px;
+	background-repeat: no-repeat;
+	width:100%;
+
+}
+
+.about{
+	padding-left:150px;
+	padding-right:150px;
+}
+
+p {
+	font-size: 90%;
+	text-align: left;
+}
+
+img {
+	position: relative;
+}
+
+.headline a {
+	font-size: 120%;
+}
