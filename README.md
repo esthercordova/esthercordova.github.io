@@ -52,3 +52,13 @@ In addition, the program can also take a decoded string and encode the message f
     * eyes won’t be detected as eye since the root is only the same for 3 letters eyes will be decrypted letter by letter
   
 I decided for having at least 4 letters the same since otherwise the program delivers a lot of wrong positives. Instead of `~` the words will be decrypted letter by letter.
+
+### Dictionary Misspellings
+
+When I was testing out my code I noticed in the second example of the Sergeant level, "reinforcement" was misspelled as "reinforcemt" so I checked the rest of the dictionary and found the following misspellings:
+
+```
+["battalion", "character", "controvery", "dissapoint", "embassador", "faithfull", "foreginer", "havock", "hurrican", "inforce", "insnare", "intrust", "imagin", "interceed", "incouragemt", "moveable", "missterious", "ommit", "pertake", "quallity", "receipt", "recompence", "reinforcemt", "thankfull", "trangress", "waggon"]
+```
+
+So I changed both dictionaries with the correct spelling of the words. 
